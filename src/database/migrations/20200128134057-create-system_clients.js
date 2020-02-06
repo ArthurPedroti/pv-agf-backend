@@ -3,12 +3,12 @@
 module.exports = {
   up: (queryInterface, Sequelize) => {
     return queryInterface.createTable("system_clients", {
-      codigoCliente: {
+      codigo_cliente: {
         type: Sequelize.STRING,
         primaryKey: true,
         allowNull: false
       },
-      razaoSocial: {
+      razao_social: {
         type: Sequelize.STRING,
         allowNull: false
       },
@@ -16,7 +16,7 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false
       },
-      inscricaoEstadual: {
+      inscricao_estadual: {
         type: Sequelize.STRING,
         allowNull: false
       },
