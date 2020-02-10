@@ -9,7 +9,7 @@ module.exports = {
         autoIncrement: true,
         allowNull: false
       },
-      razaoSocial: {
+      razao_social: {
         type: Sequelize.STRING,
         allowNull: false
       },
@@ -17,7 +17,7 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false
       },
-      inscricaoEstadual: {
+      inscricao_estadual: {
         type: Sequelize.STRING,
         allowNull: false
       },

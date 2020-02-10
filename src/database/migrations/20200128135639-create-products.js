@@ -11,11 +11,11 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false
       },
-      numGrupo: {
+      num_grupo: {
         type: Sequelize.STRING,
         allowNull: false
       },
-      descGrupo: {
+      desc_grupo: {
         type: Sequelize.STRING,
         allowNull: false
       }
