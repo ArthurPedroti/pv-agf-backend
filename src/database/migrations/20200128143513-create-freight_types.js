@@ -2,7 +2,7 @@
 
 module.exports = {
   up: (queryInterface, Sequelize) => {
-    return queryInterface.createTable("freights_types", {
+    return queryInterface.createTable("freight_types", {
       name: {
         type: Sequelize.STRING,
         primaryKey: true,
@@ -12,6 +12,6 @@ module.exports = {
   },
 
   down: (queryInterface, Sequelize) => {
-    return queryInterface.dropTable("freights_types");
+    return queryInterface.dropTable("freight_types");
   }
 };
